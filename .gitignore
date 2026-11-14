@@ -1,0 +1,34 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environment
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded PDFs
+uploads/*
+vector_stores/*
+metadata/*
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
