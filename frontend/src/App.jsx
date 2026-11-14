@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://pdf-pilot-ai-chatbot-production.up.railway.app";
 
 function App() {
   const [documents, setDocuments] = useState([]);
